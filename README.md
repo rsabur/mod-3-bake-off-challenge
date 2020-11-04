@@ -12,6 +12,8 @@ $ rails db:migrate db:seed  # Migrate and seed
 $ rails s                   # Start the server
 ```
 
+The base URL for all your requests is `http://localhost:3000/bakes`. Open that link in your browser now to make sure your backend is running.
+
 A full list of available routes can be found by visiting `http://localhost:3000/rails/info/routes`.
   
 ## Demo
