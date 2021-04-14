@@ -6,6 +6,7 @@ document.querySelector("#make-bake-button").addEventListener("click", () => {
 })
 // Hide the form
 modal.addEventListener("click", e => {
+  // e.preventDefault()
   if (e.target.dataset.action === "close") {
     modal.style.display = "none"
   }
